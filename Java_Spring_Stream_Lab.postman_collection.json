@@ -1,0 +1,352 @@
+{
+	"info": {
+		"_postman_id": "00007686-5900-4706-a2df-e3a9036c6057",
+		"name": "Java Spring Stream Lab",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13455599"
+	},
+	"item": [
+		{
+			"name": "Read Demo One",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/RDemoOne",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"RDemoOne"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read Problem One",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/RProblemOne",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"RProblemOne"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read Demo Two",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/RDemoTwo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"RDemoTwo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read Problem Two",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/RProblemTwo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"RProblemTwo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read Problem Three",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/RProblemThree",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"RProblemThree"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read Problem Four",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/RProblemFour",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"RProblemFour"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read Problem Five",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/RProblemFive",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"RProblemFive"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read Demo Three",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/RDemoThree",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"RDemoThree"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read Problem Six",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/RProblemSix",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"RProblemSix"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read Problem Seven",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/RProblemSeven",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"RProblemSeven"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read Problem Eight",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/RProblemEight",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"RProblemEight"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Demo One",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/CDemoOne",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"CDemoOne"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Problem One",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/CProblemOne",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"CProblemOne"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Demo Two",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/CDemoTwo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"CDemoTwo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Problem Two",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/CProblemTwo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"CProblemTwo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Demo One",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/UDemoOne",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UDemoOne"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Problem One",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/UProblemOne",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UProblemOne"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Problem Two",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/UProblemTwo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UProblemTwo"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
