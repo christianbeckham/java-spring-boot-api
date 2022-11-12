@@ -173,9 +173,15 @@ public class StreamLabService {
     	// Create a new ShoppingCartItem to represent the new product you created being added to the new User you created's shopping cart.
         // Add the product you created to the user we created in the ShoppingCart junction table.
         // Return the ShoppingcartItem
+        User newUser = users.findAll().stream().filter(u -> u.getEmail().equals("david@gmail.com")).findFirst().orElse(null);
+        Product newProduct = products.findAll().stream().filter(p -> p.getName().equals("AirPods")).findFirst().orElse(null);
 
-    	return null;
-    	
+        ShoppingcartItem newCartItem = new ShoppingcartItem();
+        newCartItem.setProduct(newProduct);
+        newCartItem.setUser(newUser);
+        newCartItem.setQuantity(1);
+        shoppingcartitems.save(newCartItem);
+    	return newCartItem;
     }
 
     // <><> U Actions (Update) <><>
