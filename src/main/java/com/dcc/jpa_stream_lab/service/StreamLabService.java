@@ -239,6 +239,18 @@ public class StreamLabService {
 
     // DProblemTwo
     // Delete all the product relationships to the user with the email "oda@gmail.com" in the ShoppingCart table.
+    public List<ShoppingcartItem> DProblemTwo() {
+        User user = users.findAll().stream().filter(u -> u.getEmail().equals("oda@gmail.com")).findFirst().orElse(null);
+
+        shoppingcartitems.findAll().removeIf(item -> {
+            if (user.getShoppingcartItems().contains(item)) {
+                user.removeShoppingcartItem(item);
+            }
+            return false;
+        });
+
+        return user.getShoppingcartItems();
+    }
 
     // DProblemThree
     // Delete the user with the email "oda@gmail.com" from the Users table.
