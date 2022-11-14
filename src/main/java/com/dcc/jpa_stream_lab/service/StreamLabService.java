@@ -4,12 +4,9 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -227,6 +224,18 @@ public class StreamLabService {
     
     // DProblemOne
     // Delete the role relationship from the user who has the email "oda@gmail.com".
+    public List<Role> DProblemOne() {
+        User user = users.findAll().stream().filter(u -> u.getEmail().equals("oda@gmail.com")).findFirst().orElse(null);
+
+        roles.findAll().removeIf(role -> {
+            if (user.getRoles().contains(role)) {
+                user.removeRole(role);
+            }
+            return false;
+        });
+
+        return user.getRoles();
+    }
 
     // DProblemTwo
     // Delete all the product relationships to the user with the email "oda@gmail.com" in the ShoppingCart table.
