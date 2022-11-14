@@ -254,20 +254,15 @@ public class StreamLabService {
 
     // DProblemThree
     // Delete the user with the email "oda@gmail.com" from the Users table.
-    public Boolean DProblemThree() {
+    public List<User> DProblemThree() {
         String userEmail = "oda@gmail.com";
         User user = users.findAll().stream().filter(u -> u.getEmail().equals(userEmail)).findFirst().orElse(null);
-        boolean isDeleted = false;
 
         if (user != null) {
             users.deleteById(user.getId());
-
-            if (users.findAll().stream().filter(u -> u.getEmail().equals(userEmail)).count() == 0) {
-                isDeleted = true;
-            }
         }
 
-        return isDeleted;
+        return users.findAll().stream().filter(u -> u.getEmail().equals(userEmail)).toList();
     }
 
 }

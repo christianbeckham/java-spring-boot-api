@@ -129,6 +129,6 @@ public class StreamLabController {
     public List<ShoppingcartItem> DProblemTwo() { return service.DProblemTwo(); }
 
     @DeleteMapping("/DProblemThree")
-    public Boolean DProblemThree() { return service.DProblemThree(); }
+    public List<User> DProblemThree() { return service.DProblemThree(); }
     
 }
